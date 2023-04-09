@@ -1,0 +1,383 @@
+@media screen and (max-width:376px){
+    #navbar-principal{ /*fondo y contenedor principal de la navbar*/
+        position: absolute;
+        width: 375px;
+        height: 96px;
+        top: 20px;
+        opacity: 100;
+    }
+    .container-fluid{
+        background-color: transparent;
+        width: 375px;
+        height: 96px;
+    .nav-item{
+        left: 0px;
+        position: relative;
+        .nav-link{  /* botones de la navbar*/
+            text-align: center;
+            font: normal normal medium 16px/21px 'Roboto';
+            letter-spacing: 0px;
+            padding-left: 5px;
+            padding-top: 60px;
+            left: 0px;
+            color: white;
+        }
+    }
+    }
+    #navbarNav{
+        background-color: #A22121;
+        border-radius: 50px;
+        padding-top: 90px;
+        height: 600px;
+    img{ /*logotipo de la navbar*/
+        position: absolute;
+        background-color: transparent;
+        left: 105px;
+        top: 90px;
+        width:170px;
+    }
+    }
+    
+    
+                                            /*primera seccion*/
+    
+    
+        .carousel-inner{    /*contenedor principal del carrusel*/
+            width: 375px;
+            height: 736px;
+            position: relative;
+            .contenedor-texto{ /*div contendor del titulo subtitulo y boton*/
+                left: 0;
+                top: 130px;
+                width: 375px;
+                text-align: center;
+                h1{
+                    font: normal 600 42px/60px Poppins;
+                    letter-spacing: 0.67px;
+                    color: black;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                }
+                p{
+                    font: normal 800 20px Poppins;
+                    top: 270px;
+                    color: white;
+                    left: 15px;
+                }
+                a{
+                    top:450px;
+                    left: 110px;
+                }
+            }
+                img{
+                    width: 375px;
+                    height: 736px;
+                    object-fit: cover;
+                }
+                .carousel-indicators{ /*botones "puntitos" del carrusel*/
+                    width: 50px;
+                    height: 8px;
+                    top: 490px;
+                    position: absolute;
+                    margin-left:0;
+                    justify-content: space-between;
+                button{
+                    position: relative;
+                    background-color:black;
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    left: 160px;
+                    top: 200px;
+                }
+                }
+        }
+    
+    
+                                        /* fullwidth texto*/
+                                    
+                                
+    
+    .segundaseccion{
+        width: 375px;
+        height: 736px;
+        position: relative;
+        h1{
+            width: 375px;
+            position: absolute;
+            top: 50px;
+            left: 0;
+            color: #343434;
+            text-align: center;
+            font-size:45px;
+            letter-spacing: 2px;
+            span{
+                color:#A22121;
+            }
+        }
+        p{
+            position: absolute;
+            top: 311px;
+            left: 15px;
+            width: 350px;
+            height: 197px;
+            text-align: center;
+        }
+        .solapa{       /*solapa de color del fulltext*/
+            position: relative;
+            background-color: #A22121;
+            top: 706px;
+            left: 0px;
+            width: 375px;
+            height: 32px;
+        }
+    }
+    
+    
+    
+                            /* slider tercera seccion*/
+    
+    
+    
+    
+    
+    
+    .slider{       /*contenedor de fondo primer color*/
+        background-color: #Eed8c6;
+        top: 1474px;
+        left: 0px;
+        width: 375px;
+        height: 736px;
+        position: absolute;
+    
+    .slider-segundocolor{ /*contenedor de fondo segundo color*/
+        background-color: #D2ab8f;
+        top: 665px;
+        left: 0;
+        width: 375px;
+        height: 250px;
+        position: absolute;
+    }
+    
+    .carousel-inner{      /*contenedor del carrusel el que da tamano y ubicacion a la imagen*/
+            width: 375px;
+            height: 736px;
+            top: 0px;
+            left: 0px;
+            position: relative;
+    .recuadro-slider{     /*contenedor del texto y titulo que va encima de cada foto*/
+        position: absolute;
+        width: 375px;
+        height: 414px;
+        left: 0px;
+        top:80px;
+        background-color: transparent;
+        .carousel-caption{
+            position: relative;
+            left: 0px;
+            top: 0px;
+        }
+        h5{
+            color: black;
+            width: 375px;
+            height: 55px;
+            font-family: 'Poppins';
+        }
+        h6{
+            width: 375px;
+            height: 21px;
+            color: black;
+        }
+        p{
+            color: black;
+            width: 375px;
+            height: 80px;
+            letter-spacing: 0.22px;
+            text-align: center;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+    }
+    .carousel-control-prev {     /*boton anterior del carrusel*/
+        background-color:black;
+        width: 20px;
+        height: 20px;
+        top: 368px;
+        left: 12px;
+        border-radius: 50%;
+    }
+    .carousel-control-next{       /*boton sigueinte del carrusel*/
+        background-color:black;
+        width: 20px;
+        height: 20px;
+        top: 368px;
+        left: 340px;
+        border-radius: 50%;
+    }
+    }
+    
+    
+    
+    
+                            /* cuarta seccion*/
+    
+    
+    
+    
+    .cuartaseccion{      /*contenedor del fondo, color de fondo e imagen*/
+        position: absolute;
+        top: 2210px;
+        width: 375px;
+        height: 736px;
+        background-color:#Eed8c6;
+        img{
+            top: 615px;
+            left: 0px;
+            width: 375px;
+            height: 300px;
+            position: relative;
+            object-fit:cover;
+            opacity: 1%;
+    
+        }
+    #accordionExample{ /* acordion  IMPORTANTE REVISAR LA UBICACION */
+        top: 140px;
+        left: 12.5px;
+        width: 350px;
+        height: 184px;
+        position: absolute;
+        button{
+            color: black;
+        }
+    }
+    }
+    .accordion-button:hover{
+        background-color: #A22121;
+    }
+    
+    
+    
+                            /* quinta seccion*/
+    
+    
+    
+    .quintaseccion{     /*contenedor color de fondo de la seccion form*/
+        background-color: #Eed8c6;
+        top: 2945px;
+        left: 0px;
+        width: 375px;
+        height: 736px;
+        position: absolute;
+    
+        span{         /* segundo color del fondo*/
+            background-color: #D2ab8f;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 375px;
+            height: 200px;
+        }
+        img{   
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 375px;
+            height: 270px;
+            opacity: 1%;
+        }
+    
+    h1{
+        position: relative;
+        top: 50px;
+        left: 45px;
+        width: 285px;
+        height: 100px;
+        font: normal normal 600 39px/45px Poppins;
+        text-align: center;
+    }
+    
+    .contenedor-form{     /*formulario*/
+        position: absolute;
+        top: 250px;
+        left: 20px;
+        width: 330px;
+        height: 33px;
+    
+        button{
+        position: relative;
+        left: 90px;
+        top: 40px;
+        width: 144px;
+        height: 48px;
+        border-radius: 25px;
+        border-style: none;
+        background-color: #A22121;
+        }
+    }
+    }
+    
+    #floatingTextarea2{ /* area de comentarios*/
+        height: 73px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: solid 1px;
+        background-color:#Eed8c6;
+        border-radius: 0px;
+    }
+    
+    #floatingInput{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: solid 1px;
+        background-color:#Eed8c6;
+        border-radius: 0px;
+    }
+    #alert-success{
+        top:3590px;
+        left: 10px;
+        width: 350px;
+        height: 75px;
+        text-align: center;
+    }
+    #alert-danger{
+        top:3590px;
+        left: 10px;
+        width: 350px;
+        height: 75px;
+        text-align: center;
+    }
+    
+    
+    
+    
+                                        /* Footer seccion*/
+    
+    
+    
+    .footer{
+        position: absolute;
+        top: 3680px;
+        left: 0px;
+        width: 375px;
+        height: 96px;
+        background-color: #343434;
+    h6{
+        color: #DCE1DA;
+        position: relative;
+        top: 60px;
+        left: 90px;
+        width: 195px;
+        height: 21px;
+    }
+    img{
+        position: absolute;
+        left: 150px;
+        width: 86px;
+        height: 20px;
+        top: 25px;
+    }
+    }
+}

@@ -6,9 +6,9 @@ import {Carruselprincipal}from './Componentes/PrimeraSeccion/Carruselprincipal';
 import { Fullwithtext } from './Componentes/SegundaSeccion/Fullwithtext';
 import { Slider } from './Componentes/TerceraSeccion/Slider';
 import { Acordion } from './Componentes/CuartaSeccion/Acordion';
-import { Formulario } from './Componentes/Quintaseccion/Formulario';
+import { Formulario } from './Componentes/QuintaSeccion/Formulario';
 import { Footer } from './Componentes/Footer/Footer';
-import DateContact from './Componentes/Quintaseccion';
+import DateContact from './Componentes/QuintaSeccion';
 
 function App() {
   return (

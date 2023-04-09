@@ -1,0 +1,77 @@
+                               /* slider tercera seccion*/
+
+.slider{       /*contenedor de fondo primer color*/
+    background-color: #Eed8c6;
+    top: 1440px;
+    left: 0px;
+    width: 1366px;
+    height: 768px;
+    position: absolute;
+
+.slider-segundocolor{ /*contenedor de fondo segundo color*/
+    background-color: #D2ab8f;
+    left: 968px;
+    width: 398px;
+    height: 768px;
+    position: absolute;
+}
+
+.carousel-inner{      /*contenedor del carrusel el que da tamano y ubicacion a la imagen*/
+        width: 966px;
+        height: 552px;
+        top: 112px;
+        left: 200px;
+.recuadro-slider{     /*contenedor del texto y titulo que va encima de cada foto*/
+    position: absolute;
+    width: 471px;
+    height: 304px;
+    left: 495px;
+    top:248px;
+    background-color: #A22121;
+    .carousel-caption{
+        position: relative;
+        left: 50px;
+        top: 40px;
+        
+    }
+    h5{
+        color: black;
+        width: 229px;
+        height: 55px;
+        font-size: 39px;
+        font-family: 'Poppins';
+    }
+    h6{
+        width: 137px;
+        height: 21px;
+        color: black;
+    }
+    p{
+        color: black;
+        width: 372px;
+        height: 63px;
+        letter-spacing: 0.22px;
+        text-align: left;
+    }
+}
+}
+    .carousel-control-prev {     /*boton anterior del carrusel*/
+        background-color:black;
+        width: 20px;
+        height: 20px;
+        top: 501px;
+        left: 866.3px;
+        border-radius: 50%;
+    }
+    .carousel-control-next{       /*boton sigueinte del carrusel*/
+        background-color:black;
+        width: 20px;
+        height: 20px;
+        top: 501px;
+        left: 896.7px;
+        border-radius: 50%;
+    }
+}
+
+
+

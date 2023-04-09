@@ -1,0 +1,59 @@
+                   /* carrusel principal*/
+
+
+                  
+.carousel-inner{    /*contenedor principal del carrusel*/
+    width: 1366px;
+    height: 768px;
+    position: relative;
+    
+.contenedor-texto{  /*div contendor del titulo subtitulo y boton*/
+    position: absolute;
+    top: 254px;
+    left: 101px;
+    width: 554px;
+    height: 115px;
+h1{
+    position: absolute;
+    font: normal normal 600 48px/48px Poppins;
+    letter-spacing: 0.67px;
+    color: #111111;
+}
+p{
+    color: #111111;
+    letter-spacing: 0.22px;
+    font: normal normal medium 16px/21px Roboto;
+    position: absolute;
+    top: 130px;
+    width: 343px;
+    height: 42px;
+}
+a{
+    position: absolute;
+    background: #A22121 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    border-style: none;
+    top: 220px;
+    width: 144px;
+    height: 48px;
+    padding-top: 10px;
+}
+}
+
+.carousel-indicators{ /*botones "puntitos" del carrusel*/
+    width: 50px;
+    height: 8px;
+    top: 570px;
+    position: absolute;
+    margin-left:0;
+    justify-content: space-between;
+button{
+    position: relative;
+    background-color:#A22121;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    left: 101px;
+}
+}
+}

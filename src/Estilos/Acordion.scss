@@ -1,0 +1,32 @@
+                                  /* cuarta seccion*/
+
+
+
+.cuartaseccion{      /*contenedor del fondo, color de fondo e imagen*/
+    position: absolute;
+    top: 2208px;
+    width: 1366px;
+    height: 768px;
+    background-color:white;
+    img{
+        left: 596px;
+        width: 770px;
+        height: 768px;
+        position: relative;
+        object-fit:cover;
+
+    }
+#accordionExample{ /* acordion  IMPORTANTE REVISAR LA UBICACION */
+    top: 144px;
+    left: 101px;
+    width: 669px;
+    height: 184px;
+    position: absolute;
+    button{
+        color: black;
+    }
+}
+}
+.accordion-button:hover{
+    background-color: #A22121;
+}

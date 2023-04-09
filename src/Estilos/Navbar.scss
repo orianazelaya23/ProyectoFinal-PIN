@@ -1,0 +1,31 @@
+#navbar-principal{ /*fondo y contenedor principal de la navbar*/
+    background-color: transparent !important;
+    position: absolute;
+    width: 1366px;
+    height: 96px;
+    top: 20px;
+    opacity: 1;
+}
+.container-fluid{
+    background-color: none;
+    width: 1366px;
+    height: 96px;
+.nav-item{
+    left: 810.5px;
+    position: relative;
+    .nav-link{  /* botones de la navbar*/
+        text-align: center;
+        font: normal normal medium 16px/21px 'Roboto';
+        letter-spacing: 0px;
+        padding-left: 35px;
+        color: white;
+    }
+}
+}
+#navbarNav{
+    background-color: none;
+img{ /*logotipo de la navbar*/
+    position: absolute;
+    left: 100px;
+}
+}

@@ -1,0 +1,33 @@
+                                  /* fullwidth texto*/
+                                
+                            
+
+.segundaseccion{
+    width: 1366px;
+    height: 672px;
+    position: relative;
+    h1{
+        position: absolute;
+        top: 167px;
+        left: 299px;
+        color: #343434;
+        span{
+            color:#A22121;
+        }
+    }
+    p{
+        position: absolute;
+        top: 311px;
+        left: 299px;
+        width: 768px;
+        height: 197px
+    }
+    .solapa{       /*solapa de color del fulltext*/
+        position: relative;
+        background-color: #A22121;
+        top: 144px;
+        left: 0px;
+        width: 32px;
+        height: 384px;
+    }
+}
